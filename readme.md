@@ -39,27 +39,27 @@ El objetivo del ejercicio es brindarte práctica en el diseño y manipulación d
 Añade estos valores a `usuarios`
 
 ```SQL
-INSERT INTO usuarios (nombre, apellido, email, edad, id_rol) VALUES
-('Juan', 'Gomez', 'juan.gomez@example.com', 28, 1),
-('Maria', 'Lopez', 'maria.lopez@example.com', 32, 2),
-('Carlos', 'Rodriguez', 'carlos.rodriguez@example.com', 25, 3),
-('Laura', 'Fernandez', 'laura.fernandez@example.com', 30, 4),
-('Pedro', 'Martinez', 'pedro.martinez@example.com', 22, 1),
-('Ana', 'Hernandez', 'ana.hernandez@example.com', 35, 2),
-('Miguel', 'Perez', 'miguel.perez@example.com', 28, 3),
-('Sofia', 'Garcia', 'sofia.garcia@example.com', 26, 4),
-('Javier', 'Diaz', 'javier.diaz@example.com', 31, 1),
-('Luis', 'Sanchez', 'luis.sanchez@example.com', 27, 2),
-('Elena', 'Moreno', 'elena.moreno@example.com', 29, 3),
-('Daniel', 'Romero', 'daniel.romero@example.com', 33, 4),
-('Paula', 'Torres', 'paula.torres@example.com', 24, 1),
-('Alejandro', 'Ruiz', 'alejandro.ruiz@example.com', 28, 2),
-('Carmen', 'Vega', 'carmen.vega@example.com', 29, 3),
-('Adrian', 'Molina', 'adrian.molina@example.com', 34, 4),
-('Isabel', 'Gutierrez', 'isabel.gutierrez@example.com', 26, 1),
-('Hector', 'Ortega', 'hector.ortega@example.com', 30, 2),
-('Raquel', 'Serrano', 'raquel.serrano@example.com', 32, 3),
-('Alberto', 'Reyes', 'alberto.reyes@example.com', 28, 4);
+INSERT INTO usuarios (nombre, apellido, email, edad) VALUES
+('Juan', 'Gomez', 'juan.gomez@example.com', 28),
+('Maria', 'Lopez', 'maria.lopez@example.com', 32),
+('Carlos', 'Rodriguez', 'carlos.rodriguez@example.com', 25),
+('Laura', 'Fernandez', 'laura.fernandez@example.com', 30),
+('Pedro', 'Martinez', 'pedro.martinez@example.com', 22),
+('Ana', 'Hernandez', 'ana.hernandez@example.com', 35),
+('Miguel', 'Perez', 'miguel.perez@example.com', 28),
+('Sofia', 'Garcia', 'sofia.garcia@example.com', 26),
+('Javier', 'Diaz', 'javier.diaz@example.com', 31),
+('Luis', 'Sanchez', 'luis.sanchez@example.com', 27),
+('Elena', 'Moreno', 'elena.moreno@example.com', 29),
+('Daniel', 'Romero', 'daniel.romero@example.com', 33),
+('Paula', 'Torres', 'paula.torres@example.com', 24),
+('Alejandro', 'Ruiz', 'alejandro.ruiz@example.com', 28),
+('Carmen', 'Vega', 'carmen.vega@example.com', 29),
+('Adrian', 'Molina', 'adrian.molina@example.com', 34),
+('Isabel', 'Gutierrez', 'isabel.gutierrez@example.com', 26),
+('Hector', 'Ortega', 'hector.ortega@example.com', 30),
+('Raquel', 'Serrano', 'raquel.serrano@example.com', 32),
+('Alberto', 'Reyes', 'alberto.reyes@example.com', 28);
 ```
 ## PASO 2 - Crea una tabla de `roles`
 
